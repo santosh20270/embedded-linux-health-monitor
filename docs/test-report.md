@@ -1,8 +1,17 @@
 # Test Report
 
-## Build Test
+## Test Environment
 
-The project was successfully built using CMake on Ubuntu 24.04 through WSL.
+- OS: Ubuntu 24.04.5 LTS
+- Environment: WSL2
+- Build System: CMake
+- Test Framework: CTest
+- Compiler: GNU C++
 
-```text
-[100%] Built target device-health-monitor
+## Build
+
+The project was successfully configured and built using:
+
+```bash
+cmake -S . -B build
+cmake --build build
