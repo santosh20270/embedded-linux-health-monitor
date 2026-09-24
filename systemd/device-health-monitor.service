@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/mnt/c/Users/SANTOSH/OneDrive/Documents/Downloads/embedded-linux-health-monitor/embedded-linux-health-monitor/build/device-health-monitor
+ExecStart=/usr/local/bin/device-health-monitor
 WorkingDirectory=/mnt/c/Users/SANTOSH/OneDrive/Documents/Downloads/embedded-linux-health-monitor/embedded-linux-health-monitor
 Restart=always
 RestartSec=5
