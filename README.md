@@ -8,7 +8,7 @@ The Embedded Linux Health Monitor is designed to monitor the health and resource
 
 The application is implemented in C++ and uses a modular monitoring architecture. Different monitoring components are responsible for collecting information about CPU, memory, disk, network, temperature, and system services.
 
-The project also includes configuration management, logging, automated build support using CMake, systemd service integration, and unit tests.
+The project also includes configuration management, logging, automated build support using CMake, systemd service integration, failure simulation, and unit tests.
 
 ## ✨ Features
 
@@ -86,5 +86,4 @@ embedded-linux-health-monitor/
 │
 ├── CMakeLists.txt
 ├── .gitignore
-├── health_monitor.log
 └── README.md
