@@ -4,8 +4,18 @@ project(EmbeddedLinuxHealthMonitor)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 include_directories(include)
+
+# Compiler warnings
+if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
+    add_compile_options(
+        -Wall
+        -Wextra
+        -Wpedantic
+    )
+endif()
 
 # Main application
 add_executable(device-health-monitor
