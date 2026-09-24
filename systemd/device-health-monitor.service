@@ -1,0 +1,13 @@
+[Unit]
+Description=Embedded Linux Device Health Monitor
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/mnt/c/Users/SANTOSH/OneDrive/Documents/Downloads/embedded-linux-health-monitor/embedded-linux-health-monitor/build/device-health-monitor
+WorkingDirectory=/mnt/c/Users/SANTOSH/OneDrive/Documents/Downloads/embedded-linux-health-monitor/embedded-linux-health-monitor
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

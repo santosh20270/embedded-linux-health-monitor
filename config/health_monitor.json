@@ -1,0 +1,7 @@
+{
+    "cpu_threshold": 80,
+    "memory_threshold": 85,
+    "disk_threshold": 90,
+    "temperature_threshold": 80,
+    "check_interval": 5
+}

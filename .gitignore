@@ -1,0 +1,3 @@
+build/
+health_monitor.log
+*.log
